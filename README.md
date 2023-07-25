@@ -1,4 +1,4 @@
-# Replication Package for the Paper "Personalized First Issue Recommender for Newcomers in Open Source Projects"
+# Replication Package for ASE 2023 Paper "Personalized First Issue Recommender for Newcomers in Open Source Projects"
 
 This repository contains a replication package for the paper titled "Personalized First Issue Recommender for Newcomers in Open Source Projects." This package includes a dataset of 68,858 issues from 100 GitHub projects, records of 123 manually labeled issue samples, and Python scripts for analyzing the data and evaluating models.
 
@@ -8,7 +8,7 @@ We recommend setting up the required environment on a commodity Linux machine wi
 
 ## Files and Replicating Results
 
-We used the GFI-bot database and the GitHub GraphQL API to collect features of 68,858 candidate issues and restore historical states of resolvers of 11,615 FIs (first issues). As the dataset is too large for git, please download the data file separately from [Zenodo](https://zenodo.org/record/7915841#.ZFp3zexByCc) and place it under `ReplicationPackage/`. We will provide the Zenodo link in the paper upon acceptance.
+We used the GFI-bot database and the GitHub GraphQL API to collect features of 68,858 candidate issues and restore historical states of resolvers of 11,615 FIs (first issues). As the dataset is too large for git, please download the data file separately from [Zenodo](https://zenodo.org/record/7915841) and place it under `ReplicationPackage/`.
 
 The followings are the files and replicating results:
 
